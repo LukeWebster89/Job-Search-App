@@ -3,9 +3,12 @@ package com.lw.jobsearch.service;
 import java.util.List;
 import java.util.Optional;
 
+import org.springframework.stereotype.Service;
+
 import com.lw.jobsearch.entity.Job;
 import com.lw.jobsearch.repo.JobRepo;
 
+@Service
 public class JobService implements ServiceMethods<Job>{
 	
 	private JobRepo repo;

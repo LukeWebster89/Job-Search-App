@@ -5,18 +5,18 @@ import java.util.List;
 public interface ServiceMethods <T>{
 	
 	//create
-		T create(T job);
+	T create(T job);
 		
-		//readAll
-		List<T> readAll();
+	//readAll
+	List<T> readAll();
 		
-		//readById
-		T readById(long id);
+	//readById
+	T readById(long id);
 		
-		//update
-		T update(long id, T job);
+	//update
+	T update(long id, T job);
 		
-		//delete
-		boolean delete(long id);
+	//delete
+	boolean delete(long id);
 
 }
